@@ -1,6 +1,5 @@
 package com.petServices.step_defenitions;
 
-import com.petServices.utilities.DBUtils;
 import com.petServices.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
