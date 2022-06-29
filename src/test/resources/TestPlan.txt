@@ -1,0 +1,100 @@
+Purrfect Pet Services
+Test plan
+
+Table of Contents
+
+1.  Introduction
+1.1 Purpose of the test plan document
+
+This document serves as a test plan. It describes the testing approach and automation framework that will test the application.
+This document describes:
+o Application under test overview
+o Testing strategy
+o Test management
+o Test Risks
+o Deliverables
+
+Each section is divided into several subsections that serve to provide more detailed insight on the description and the goals of that section.
+This document focuses on the functional testing of the application. Providing details on the strategy and management
+ of performance testing and security testing is not in the scope of
+this document.
+
+1.2 APPLICATION UNDER TEST OVERVIEW - Purrfect Pet Services
+
+A pet services company was opened in a small town and quickly grew popular.
+To expedite their processing times to accept pets, they decided to create
+ a web application so people could register their pets for services online.
+ It was so successful that many other companies wanted to integrate with them,
+ so they also made a public API to register their pets and integrate with their
+ own services.
+
+2.  TESTING STRATEGY
+  The company utilizes the Behavior Driven Testing approach to ensure that automated testing
+  brings business value. The company will work to identify priorities based on the value they bring.
+   Tools like Cucumber BDD, Selenium WebDriver will be used to implement the BDD testing approach.
+2.1 TEST SCOPE
+
+2.1.1 Functional testing.
+ Functional testing will be performed to verify if the application features are
+ developed according to the specifications. Functional testing will be done manually and using automation.
+ BA will provide the scenarios for functional tests. However, testers also will need to write scenarios for
+functional tests when required.
+Functional testing will be carried out by the functional testing team.
+
+2.1.Layers of testing
+ Functional testing will be on three layers of the application:
+ UI, API, and Database. In each layer, tests can be executed manually or using automation.
+
+2.2 TEST ENVIRONMENT
+QA1 environment - Functional testing
+QA2 environment - Non-Functional testing
+Staging environment - UAT testing
+
+A window environment with Google Chrome and later should be available to each tester
+
+3. SCHEDULE / Sprint Iteration
+
+Iteration (or) Build No     Iteration#1(sprint#1)
+Start Date                  27-June-2022
+End Date                    30-June-2022
+
+
+
+4. ROLE &  RESOURCES
+
+4.1 Project Management
+ Project Manager: reviews the content of the Test Plan, Test Strategy, and Test Estimates signs off on it.
+
+4.2 Test Lead
+
+Ensure entrance criteria are used as input before starting the execution.
+Develop test plans and guidelines to create test conditions, test cases, expected results, and execute scripts.
+Provide guidelines on how to manage defects.  Attend status meetings in person or via the conference call line.
+Communicate to the test team any changes that need to be made to the test deliverables or application and when they will be completed.
+Provide on-premise or telecommute support.
+
+4.3 Test Team
+
+Develop test conditions, test cases, expected results, and execute scripts.
+Perform execution and validation.
+Identify, document, and prioritize defects according to the guidance provided by the Test lead.
+Re-test after software modifications have been made according to the schedule.
+Prepare testing metrics and provide regular status.
+
+
+
+5 . RISKS & MITIGATION:
+
+NO
+Risk
+Mitigation
+1
+Resource not enough, schedule
+Holiday and vacation estimation is included in original schedule
+2
+Hardware failure during testing
+Make ready It team, also maintain backup h/w resources.
+3
+Too many bugs to handle
+Defect management plan is in place to ensure prompt communication and fixing of issues.
+
